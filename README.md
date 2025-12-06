@@ -1,7 +1,7 @@
 # 🚀 Suggestify — AI Query Suggestion Engine
 
 Suggestify intelligently generates search query recommendations using NLP.
-Works **with or without a database** — fully plug & play.
+Works **with or without a database** — fully plug & play. It can be used for any domain—technology, food, healthcare, geography, science, entertainment, and more.
 
 ---
 
@@ -16,18 +16,6 @@ Works **with or without a database** — fully plug & play.
 | SQL / CSV history intake | ✔ |
 
 ---
-
-### Basic Use
-
-```python
-from suggestify import QuerySuggester
-
-s = QuerySuggester()
-print(s.suggest("chest pain"))
-# Suggestify
-
-A domain-agnostic semantic query suggestion engine.
-Suggestify works with or without datasets and generates realistic, human-like query suggestions dynamically using NLP. It can be used for any domain—technology, food, healthcare, geography, science, entertainment, and more.
 
 ## 💡 Features
 
