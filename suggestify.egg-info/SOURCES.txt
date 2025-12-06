@@ -8,4 +8,5 @@ suggestify.egg-info/SOURCES.txt
 suggestify.egg-info/dependency_links.txt
 suggestify.egg-info/requires.txt
 suggestify.egg-info/top_level.txt
-tests/test_suggestify.py
+tests/test_dataset_mode.py
+tests/test_query_suggester.py
