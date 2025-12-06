@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: suggestify
+Version: 0.1.0
+Summary: Domain-agnostic semantic query suggestion engine
+Author: MD Jubayer Khan
+Description-Content-Type: text/markdown
+Requires-Dist: sentence-transformers
+Requires-Dist: torch
+Requires-Dist: faiss-cpu
+Requires-Dist: rapidfuzz
+Requires-Dist: pandas
+Requires-Dist: sqlalchemy
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: summary
+
+# ðŸš€ Suggestify â€” AI Query Suggestion Engine
+
+Suggestify intelligently generates search query recommendations using NLP.
+Works **with or without a database** â€” fully plug & play.
+
+---
+
+## ðŸ”¥ Features
+
+| Feature | Supported |
+|---|---|
+| Semantic AI suggestions | âœ” |
+| Works without DB | âœ” |
+| Fuzzy matching | âœ” |
+| Django + FastAPI + Flask adapters | âœ” |
+| SQL / CSV history intake | âœ” |
+
+---
+
+### Basic Use
+
+```python
+from suggestify import QuerySuggester
+
+s = QuerySuggester()
+print(s.suggest("chest pain"))

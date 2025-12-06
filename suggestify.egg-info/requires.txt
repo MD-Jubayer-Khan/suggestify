@@ -1,0 +1,6 @@
+sentence-transformers
+torch
+faiss-cpu
+rapidfuzz
+pandas
+sqlalchemy
