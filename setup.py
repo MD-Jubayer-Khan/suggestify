@@ -2,8 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name="suggestify",
-    version="0.1.0",
-    packages=find_packages(),
+    version="0.1.2",
+    packages=find_packages(include=['suggestify', 'suggestify.*']),
+    include_package_data=True,
+    package_data={
+        'suggestify': ['*.py', 'core/*.py', 'api/*.py', '*.txt'],
+    },
     install_requires=[
         "sentence-transformers>=2.2.2",  # for embeddings
         "torch>=2.0.0",                 # required by sentence-transformers

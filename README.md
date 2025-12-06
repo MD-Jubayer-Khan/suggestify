@@ -97,12 +97,12 @@ import { useState } from "react";
 
 export default function SuggestionApp() {
   const [query, setQuery] = useState("");
-  const [suggestions, setSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState([]);
 
   async function fetchSuggestions() {
-    const res = await fetch(`/suggest/?query=${query}`);
+    const res = await fetch(`/suggest/?q=${query}`);
     const data = await res.json();
-    setSuggestions(data.suggestions);
+    setShowSuggestions(data.suggestions);
   }
 
   return (
@@ -134,8 +134,6 @@ Dataset mode:
 Encodes dataset entries using sentence-transformers
 
 Performs semantic search
-
-Adds fuzzy matching for typos
 
 Blends results into natural-language queries
 

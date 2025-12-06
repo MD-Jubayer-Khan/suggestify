@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: suggestify
-Version: 0.1.0
+Version: 0.1.2
 Summary: Domain-agnostic semantic query suggestion engine
 Home-page: https://github.com/MD-Jubayer-Khan/suggestify
 Author: MD Jubayer Khan
@@ -49,8 +49,6 @@ Works **with or without a database** — fully plug & play. It can be used for a
 | SQL / CSV history intake | ✔ |
 
 ---
-
-## 💡 Features
 
 AI-Only Mode: Generate realistic query suggestions without any dataset.
 
