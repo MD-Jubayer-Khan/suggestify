@@ -7,6 +7,9 @@ def load_queries(data_source=None, table=None):
 
     if not data_source:
         return []  # No DB → fallback to AI generation
+    # If a list is passed directly
+    if isinstance(data_source, list):
+        return data_source
 
     # CSV support
     if data_source.endswith(".csv"):
