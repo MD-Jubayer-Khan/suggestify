@@ -24,4 +24,11 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    keywords="query suggestion NLP semantic search fuzzy search AI",
+    project_urls={
+    "Documentation": "https://github.com/MD-Jubayer-Khan/suggestify#readme",
+    "Source": "https://github.com/MD-Jubayer-Khan/suggestify",
+    "Bug Tracker": "https://github.com/MD-Jubayer-Khan/suggestify/issues",
+    },
+
 )

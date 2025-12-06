@@ -4,6 +4,10 @@ Version: 0.1.0
 Summary: Domain-agnostic semantic query suggestion engine
 Home-page: https://github.com/MD-Jubayer-Khan/suggestify
 Author: MD Jubayer Khan
+Project-URL: Documentation, https://github.com/MD-Jubayer-Khan/suggestify#readme
+Project-URL: Source, https://github.com/MD-Jubayer-Khan/suggestify
+Project-URL: Bug Tracker, https://github.com/MD-Jubayer-Khan/suggestify/issues
+Keywords: query suggestion NLP semantic search fuzzy search AI
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -21,6 +25,8 @@ Dynamic: classifier
 Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
 Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary

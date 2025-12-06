@@ -17,8 +17,6 @@ Works **with or without a database** — fully plug & play. It can be used for a
 
 ---
 
-## 💡 Features
-
 AI-Only Mode: Generate realistic query suggestions without any dataset.
 
 Dataset Mode: Works with CSV, SQLite, or Python lists for enriched semantic + fuzzy search.
